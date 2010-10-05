@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>GNUE(鵺)</string>
+	<key>Builder Version</key>
+	<string>7534.48.3</string>
+	<key>CFBundleDisplayName</key>
+	<string>Side Buzztter 2</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.so-kukna.twitter.sidebuzztter2</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<real>1048576</real>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>side_buzztter2.user.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://twitter.com/*</string>
+			<string>https://twitter.com/*</string>
+			<string>http://buzztter.com/*</string>
+			<string>http://pipes.yahoo.com/pipes/pipe.run?_id=HLE5vPpS3hGu0eq4wTSbTQ&amp;*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Twitter のサイドメニューで buzztter の抽出したトレンドワードを表示できるようにします</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>twitter.com</string>
+				<string>buzztter.com</string>
+				<string>pipes.yahoo.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://github.com/gnue/Side-Buzztter-2</string>
+</dict>
+</plist>
